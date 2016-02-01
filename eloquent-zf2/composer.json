@@ -1,0 +1,37 @@
+{
+  "name": "rockeinstein/eloquent-zf2",
+  "type": "zf-module",
+  "description": "Eloquent ORM module for Zend Framework 2",
+  "keywords": [
+    "eloquent",
+    "orm",
+    "zend",
+    "framework",
+    "zf2",
+    "laravel",
+    "illuminate",
+    "database"
+  ],
+  "homepage": "https://github.com/edvinasme/eloquent-zf2",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Edvinas Klovas",
+      "email": "edvinas@pnd.io",
+      "homepage": "http://pnd.io"
+    },
+    {
+      "name": "Anderson Luciano",
+      "email": "andersonlucianodev@gmail.com"
+    }
+  ],
+  "require": {
+    "zendframework/zendframework": "~2.3",
+    "illuminate/database": "~4.2"
+  },
+  "autoload": {
+    "classmap": [
+      "./Module.php"
+    ]
+  }
+}

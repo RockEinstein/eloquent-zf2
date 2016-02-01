@@ -1,0 +1,26 @@
+<?php
+/**
+ * EloquentZF2 (https://github.com/RockEinstein/Eloquent-ZF2)
+ * Eloquent ORM Module for Zend Framework 2 which integrates Illuminate\Database
+ * from Laravel Framework with ZF2.
+ *
+ * @link      https://github.com/RockEinstein/Eloquent-ZF2
+ * @copyright Copyright (c) 2014 Edvinas Klovas
+ * @license   http://opensource.org/licenses/MIT MIT License
+ * @author    Edvinas Klovas <edvinas@pnd.io> 2014
+ * @author    Anderson Luciano <andersonlucianodev@gmail.com> 2016
+ */
+
+// Setup one default connection
+return array(
+    "database_eloquent" => array(
+        'driver'    => 'mysql',
+        'host'      => '127.0.0.1',
+        'database'  => '',
+        'username'  => '',
+        'password'  => '',
+        'collation' => 'utf8_unicode_ci',
+        'charset'   => 'utf8',
+        'prefix'    => ''
+    ),
+);
